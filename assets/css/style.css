@@ -1,0 +1,187 @@
+*{
+margin:0;
+padding:0;
+}
+.flat-navbar{
+border-radius:0;
+border:none;
+}
+.flat{
+border-radius:0 !important;
+}
+.nopadding-all{
+padding:0 !important;
+margin:0 !important;
+}
+.jumbotron p{
+font-size:16px;
+}
+.table > thead > tr > th{
+text-align:center;
+}
+.fa-6{
+font-size:20em;
+}
+.fa-5{
+font-size:12em;
+}
+.fa-4{
+font-size:7em;
+}
+.fa-3{
+font-size:4em;
+}
+.fa-2{
+font-size:2em;
+}
+.fa-green {
+color: green;
+}
+.fa-red {
+color: red;
+}
+.navbar-default .navbar-toggle .icon-bar{
+background-color:#fff;
+}
+.no-sidepadding{
+padding-right:0;
+padding-left:0;
+}
+ul.faragraf > li {
+list-style-position:inside;
+}
+
+/*header*/
+#header-top{
+background-color:rgba(217,83,79,0.9);
+width:100%;
+display:block;
+padding:1px;
+color:#e0e0e0;
+position:fixed;
+top:0;
+z-index:99;
+}
+#header-top > p{
+padding:0;
+margin:0;
+letter-spacing:2px;
+word-spacing:5px;
+text-transform:uppercase;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+height: 250px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+height: 250px;
+background-color: #777;
+}
+.carousel-inner > .item > img {
+position: absolute;
+top: 0;
+left: 0;
+min-width: 100%;
+height: 250px;
+}
+img.slide{
+opacity:0.5;
+}
+
+/*navbar*/
+.navbar-orange{
+background-color:#ec971f;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand{
+color:#fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+color:#eee;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+color:#fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+background-color:#ce7901;
+color:#fff;
+}
+@media (max-width:767px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+color:#e0e0e0;
+}
+.dropdown-header{
+color:#fff;
+}
+}
+@media (min-width:769px){
+.navbar-default a.navbar-brand{
+display:none;
+visibility:hidden;
+}
+}
+
+/*konten*/
+#welcome{
+position:relative;
+}
+.close{
+position:absolute;
+top:10px;
+right:10px;
+}
+main{
+min-height:600px;
+}
+.bulletin-item{
+border:1px solid #ccc;
+padding:10px;
+background-color:#eee;
+height:480px;
+margin-bottom:40px;
+}
+.bulletin-item:hover{
+background-color:#e5e5e5;
+}
+.bulletin-item > a > img {
+min-width:320px;
+max-width:100%;
+max-height:200px;
+}
+.bulletin-item > a {
+color:#333;
+display:block;
+}
+.bulletin-item > a:hover{
+text-decoration:none;
+}
+.control-label {
+font-size: 12px;
+color: #7e7e7e;
+font-weight: normal;
+}
+form.form-login{
+max-width:500px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:100px;
+}
+
+/*footer*/
+footer{
+background-color:#ec971f;
+margin-top:40px;
+}
+
+footer > .container > p {
+color:#eee;
+padding:10px;
+text-align:center;
+}
